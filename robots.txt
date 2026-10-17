@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-d8ad2141ff.agore.cn/sitemap.xml

@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "361e4d5ee7a94df3f4890b95",
+  "owner": "lnzlwsdd",
+  "repo": "page-a14b723b203a5837669bf382",
+  "title": "ampdy",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "a14b723b203a5837669bf382",
+      "a": "ampdy",
+      "b": "",
+      "entity": "ampdy",
+      "brand": "ampdy",
+      "separator": "",
+      "path": "index.html",
+      "hash": "b351ec2b01fae0246abee81ca031002bed71ce31cf9879cfc00d402c4c60a17f",
+      "content": {
+        "keyword1": "ampdy",
+        "keyword2": "",
+        "primary_entity": "ampdy",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "ampdy 提供杂志式多栏网络架构与极简方案。以石板灰与青色构筑清晰、敏捷的数据通路，拒绝冗长堆砌，专注长效稳固。",
+          "AI_DESCRIPTION": "ampdy 提供杂志式多栏网络架构与极简方案。以石板灰与青色构筑清晰、敏捷的数据通路，拒绝冗长堆砌，专注长效稳固。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg: #1e2229;--panel: #262c36;--text: #c5cbd3;--heading: #f0f4f8;--cyan: #00d2ff;--cyan-dim: rgba(0, 210, 255, 0.12);--border: #323b49;--shadow: 0 12px 32px rgba(0, 0, 0, 0.35);--radius: 16px}\n\n* {box-sizing: border-box;margin: 0;padding: 0}\n\nbody {background-color: var(--bg);color: var(--text);font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;line-height: 1.6;padding: 0 1.5rem 4rem 1.5rem}\n\nheader {max-width: 1200px;margin: 0 auto;padding: 2.5rem 0 1.5rem 0;display: flex;justify-content: space-between;align-items: center;border-bottom: 1px solid var(--border)}\n\n.brand-logo {font-size: 1.5rem;font-weight: 800;color: var(--heading);letter-spacing: -0.05em;text-decoration: none}\n\n.brand-logo span {color: var(--cyan)}\n\nnav a {color: var(--text);text-decoration: none;margin-left: 2rem;font-size: 0.95rem;font-weight: 500;transition: color 0.2s}\n\nnav a:hover {color: var(--cyan)}\n\nmain {max-width: 1200px;margin: 0 auto}\n\n/* Hero Section: 3 杂志式多栏网格配引言 */\n.hero {display: grid;grid-template-columns: 2fr 1fr 1fr;gap: 2rem;margin: 4rem 0;align-items: stretch}\n\n.hero-main {background: var(--panel);border-radius: var(--radius);padding: 3rem;box-shadow: var(--shadow);display: flex;flex-direction: column;justify-content: space-between;border: 1px solid var(--border)}\n\n.hero h1 {font-size: 3.2rem;color: var(--heading);line-height: 1.1;font-weight: 800;letter-spacing: -0.03em;margin-bottom: 1.5rem}\n\n.hero h1 span {color: var(--cyan)}\n\n.hero-quote {font-size: 1.15rem;color: var(--heading);border-left: 3px solid var(--cyan);padding-left: 1.2rem;font-style: italic;margin-top: 1rem}\n\n.hero-side-card {background: var(--panel);border-radius: var(--radius);padding: 2rem;box-shadow: var(--shadow);border: 1px solid var(--border);display: flex;flex-direction: column;justify-content: center}\n\n.hero-side-card h3 {color: var(--cyan);font-size: 0.9rem;text-transform: uppercase;letter-spacing: 0.1em;margin-bottom: 0.75rem}\n\n.hero-side-card p {font-size: 1.05rem;color: var(--heading);font-weight: 600}\n\n/* Anchor Nav */\n.anchor-nav {display: flex;gap: 1rem;margin-bottom: 4rem;flex-wrap: wrap}\n\n.anchor-nav a {background: var(--panel);color: var(--heading);padding: 0.6rem 1.2rem;border-radius: 999px;text-decoration: none;font-size: 0.9rem;border: 1px solid var(--border);transition: all 0.2s}\n\n.anchor-nav a:hover {background: var(--cyan-dim);border-color: var(--cyan);color: var(--cyan)}\n\n/* Sections */\nsection {margin-bottom: 5rem;scroll-margin-top: 2rem}\n\nh2 {font-size: 2rem;color: var(--heading);margin-bottom: 2rem;font-weight: 700;letter-spacing: -0.02em}\n\n/* Plans: 2 纵向列表逐行展开 */\n.plans-list {display: flex;flex-direction: column;gap: 1.5rem}\n\n.plan-row {background: var(--panel);border-radius: var(--radius);padding: 2rem 2.5rem;box-shadow: var(--shadow);border: 1px solid var(--border);display: grid;grid-template-columns: 1fr 2fr 1.5fr auto;align-items: center;gap: 2rem;transition: border-color 0.2s}\n\n.plan-row:hover {border-color: var(--cyan)}\n\n.plan-row.featured {border-left: 4px solid var(--cyan)}\n\n.plan-name {font-size: 1.5rem;font-weight: 700;color: var(--heading)}\n\n.plan-features {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.5rem 1rem;font-size: 0.95rem}\n\n.plan-features li::before {content: \"—\";color: var(--cyan);margin-right: 0.5rem}\n\n.plan-pricing {text-align: right}\n\n.plan-price {font-size: 1.8rem;font-weight: 800;color: var(--heading)}\n\n.plan-annual {font-size: 0.85rem;color: var(--text);margin-top: 0.2rem}\n\n.plan-action {background: var(--cyan);color: #111;padding: 0.8rem 1.8rem;border-radius: 8px;text-decoration: none;font-weight: 700;font-size: 0.95rem;transition: opacity 0.2s}\n\n.plan-action:hover {opacity: 0.9}\n\n/* Features Grid (Card: 3 大圆角软阴影) */\n.features-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 2rem}\n\n.card {background: var(--panel);border-radius: var(--radius);padding: 2.5rem;box-shadow: var(--shadow);border: 1px solid var(--border)}\n\n.card h3 {font-size: 1.3rem;color: var(--heading);margin-bottom: 1rem}\n\n.card p {font-size: 0.95rem;color: var(--text)}\n\n/* FAQ: 2 编号列表 */\n.faq-list {display: flex;flex-direction: column;gap: 1.5rem}\n\n.faq-item {background: var(--panel);border-radius: var(--radius);padding: 2rem 2.5rem;box-shadow: var(--shadow);border: 1px solid var(--border);display: grid;grid-template-columns: 3rem 1fr;gap: 1.5rem;align-items: start}\n\n.faq-num {font-size: 1.5rem;font-weight: 800;color: var(--cyan)}\n\n.faq-content h3 {font-size: 1.2rem;color: var(--heading);margin-bottom: 0.5rem}\n\n.faq-content p {font-size: 0.95rem;color: var(--text)}\n\nfooter {max-width: 1200px;margin: 6.5rem auto 0 auto;padding-top: 2rem;border-top: 1px solid var(--border);display: flex;justify-content: space-between;align-items: center;font-size: 0.9rem;color: var(--text)}\n\n/* Responsive */\n@media (max-width: 960px) {.hero {\n    grid-template-columns: 1fr;}\n  .plan-row {\n    grid-template-columns: 1fr;gap: 1.5rem;}\n  .plan-pricing {\n    text-align: left;}\n  .features-grid {\n    grid-template-columns: 1fr;}\n  header {\n    flex-direction: column;gap: 1rem;}\n  nav a {\n    margin: 0 1rem;}}\n</style><header>\n  <a href=\"#\" class=\"brand-logo\">amp<span>dy</span></a>\n  <nav>\n    <a href=\"#plans\">方案</a>\n    <a href=\"#features\">架构</a>\n    <a href=\"#faq\">常见问题</a>\n  </nav>\n</header>\n\n<main>\n  \n  <div class=\"hero\">\n    <div class=\"hero-main\">\n      <div>\n        <h1>ampdy · 杂志式多栏网络架构与极简方案</h1>\n        <p>以石板灰与青色构筑清晰、敏捷的数据通路。摒弃繁复冗余，回归纯粹的连接效率。</p>\n      </div>\n      <div class=\"hero-quote\">\n        “结构决定效率。ampdy 通过多栏网格理念，为您重构复杂环境下的数字通道。”\n      </div>\n    </div>\n    <div class=\"hero-side-card\">\n      <h3>核心指标</h3>\n      <p>全节点动态路由，毫秒级响应，拒绝丢包与降速。</p>\n    </div>\n    <div class=\"hero-side-card\">\n      <h3>轻量协同</h3>\n      <p>多端无缝切换，精简客户端即开即用。</p>\n    </div>\n  </div>\n\n  \n  <div class=\"anchor-nav\">\n    <a href=\"#plans\">查看流量方案</a>\n    <a href=\"#features\">核心架构优势</a>\n    <a href=\"#faq\">查阅常见问答</a>\n  </div>\n\n  \n  <section id=\"plans\">\n    <h2>流量方案</h2>\n    <div class=\"plans-list\">\n      <div class=\"plan-row\">\n        <div class=\"plan-name\">基础版</div>\n        <ul class=\"plan-features\">\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n        <div class=\"plan-pricing\">\n          <div class=\"plan-price\">¥15/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n        </div>\n        <a href=\"#\" class=\"plan-action\">选择方案</a>\n      </div>\n\n      <div class=\"plan-row featured\">\n        <div class=\"plan-name\">旗舰版</div>\n        <ul class=\"plan-features\">\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7x24 优先工单支持</li>\n        </ul>\n        <div class=\"plan-pricing\">\n          <div class=\"plan-price\">¥35/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n        </div>\n        <a href=\"#\" class=\"plan-action\">选择方案</a>\n      </div>\n\n      <div class=\"plan-row\">\n        <div class=\"plan-name\">团队版</div>\n        <ul class=\"plan-features\">\n          <li>每月 1000GB 极速流量</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n        <div class=\"plan-pricing\">\n          <div class=\"plan-price\">¥85/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥850/年</div>\n        </div>\n        <a href=\"#\" class=\"plan-action\">选择方案</a>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"features\">\n    <h2>架构优势</h2>\n    <div class=\"features-grid\">\n      <div class=\"card\">\n        <h3>石板灰美学</h3>\n        <p>沉稳低调的色彩搭配，减少视觉疲劳。界面克制而清晰，专注呈现必要数据。</p>\n      </div>\n      <div class=\"card\">\n        <h3>多栏网格布局</h3>\n        <p>信息排布井然有序，摒弃冗长滚动，让每一次点击都精准直达目标。</p>\n      </div>\n      <div class=\"card\">\n        <h3>青色数据标记</h3>\n        <p>关键状态高亮显示，核心指标一目了然，异常状态实时捕捉与纠正。</p>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"faq\">\n    <h2>常见问题</h2>\n    <div class=\"faq-list\">\n      <div class=\"faq-item\">\n        <div class=\"faq-num\">01</div>\n        <div class=\"faq-content\">\n          <h3>如何开始使用 ampdy 的网络方案？</h3>\n          <p>您只需选择上方适合您的流量方案并完成配置，即可在后台获取专属连接订阅，导入至主流客户端即可使用。</p>\n        </div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-num\">02</div>\n        <div class=\"faq-content\">\n          <h3>支持哪些主流操作系统与客户端？</h3>\n          <p>全面兼容 Windows、macOS、iOS、Android 以及 Linux 等多平台，支持各类标准代理协议客户端。</p>\n        </div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-num\">03</div>\n        <div class=\"faq-content\">\n          <h3>流量额度如何计算与重置？</h3>\n          <p>所有方案的流量均按自然月周期进行重置，未用完的流量不累积至下一周期。您可随时在用户面板查看实时消耗情况。</p>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n\n<footer>\n  <div>© ampdy. All rights reserved.</div>\n  <div>杂志式多栏网络架构与极简方案</div>\n</footer>",
+          "hash": "3b578c66d6eef349a7264448fd009b7bacb22e97090eaa333212eab91ad68398",
+          "seo": {
+            "title": "ampdy - 杂志式多栏网络架构与极简方案",
+            "keywords": "ampdy, 异步传输, 网络协议, 流量方案, 终端适配",
+            "description": "ampdy 提供杂志式多栏网络架构与极简方案。以石板灰与青色构筑清晰、敏捷的数据通路，拒绝冗长堆砌，专注长效稳固。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "506",
+            "hero": "3 杂志式多栏网格配引言",
+            "palette": "7 石板灰配青色",
+            "nav": "3 首屏内嵌锚点标签",
+            "card": "3 大圆角软阴影",
+            "plans_view": "2 纵向列表逐行展开",
+            "faq_view": "2 编号列表",
+            "tone": "3 简洁利落的短句",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "agore.cn",
+    "host": "p-d8ad2141ff.agore.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "5701d265956712d4ac36b768c494d1292889d85afa6fd361433dd9760fdb96ca",
+    "sitemap.xml": "f74a63748b0e8604b68a8f4a12387d8b41c75f31c6ddc67c3e6446d089941c6d",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "062f90cbb687f72f9ac6a3342974e1b2fad487a8a0d774d864d08b4090b64a5b",
+    "robots.txt": "1ef894b6f6755149bc60183a538aca94e9830dc08860fd12e06c68dfd72a46db",
+    "8eab7b2b698822987931c7dbf2a675c6.txt": "037e57abcde5d343dc9d1b578e34258038f76e01e600f955d2eeb6f40c19efaa"
+  },
+  "revision": "e55b32af0c373796a66a59175c91d54cb958ebadf6edb3dfce5a3b2f37d0825f"
+}
